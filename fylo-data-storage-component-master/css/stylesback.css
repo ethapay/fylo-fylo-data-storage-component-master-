@@ -1,0 +1,330 @@
+/*
+  --PaleBlue: hsl(243, 100%, 93%)     -> #dddbff
+  --GrayishBlue: hsl(229, 7%, 55%)    -> #848794
+  --DarkBlue: hsl(228, 56%, 26%)      -> #1d2c67
+  --VeryDarkBlue: hsl(229, 57%, 11%)  -> #0c122c
+  button image color                  -> #6a7ed5
+  hsl(335, 100%, 65%)                 -> #ff4d97
+  hsl(6, 100%, 80%)                   -> #ffa399
+*/
+body {
+  background-color: #0c122c;
+  /* equivalent of   hsl(229, 57%, 11%) */
+  background-image: url(../images/mobile.jpg);
+  background-blend-mode: normal;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 107%;
+  background-attachment: fixed;
+  background-position: bottom;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #dddbff;
+}
+
+.main-content {
+  width: 98%;
+  height: 90%;
+  background-color: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.upload-container {
+  margin: 70px auto auto auto;
+  width: 22rem;
+  height: 12rem;
+  background-color: #1d2c67;
+  display: block;
+  border-radius: 0.5rem;
+  border-top-right-radius: 5rem;
+}
+
+.fylo-logo {
+  width: 40%;
+  height: auto;
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.button-group {
+  background-color: none;
+  width: 20rem;
+  height: 5rem;
+  margin-top: 1rem;
+  margin-left: 1.9rem;
+}
+
+.button-group button {
+  background-color: #0c122c;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  border-radius: 8px;
+  margin: 10px;
+  float: left;
+  justify-content: center;
+  align-content: center;
+}
+
+.button-group button:hover {
+  background-color: #dddbff;
+}
+
+.document-img {
+  background-color: none;
+  width: 85%;
+  height: auto;
+  padding-top: 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.folder {
+  background-color: none;
+  width: 80%;
+  height: auto;
+  padding-top: 3px;
+}
+
+.cloud-upload {
+  background-color: none;
+  width: 85%;
+  height: auto;
+  padding-top: 3px;
+}
+
+.cloud-storage-display {
+  width: 22rem;
+  height: 10rem;
+  background-color: #1d2c67;
+  border-radius: 0.5rem;
+  margin: 20px auto auto auto;
+}
+
+.white-box {
+  position: relative;
+  top: 45px;
+  margin: auto;
+  background-color: white;
+  width: 11rem;
+  height: 4.5rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remaining-msg {
+  text-align: center;
+  color: #0c122c;
+  font-size: 2rem;
+}
+
+.units-msg {
+  font-size: 0.65rem;
+  color: #848794;
+  position: relative;
+  bottom: 0.4375rem;
+}
+
+.cloud-storage-msg {
+  clear: right;
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+  top: 35px;
+}
+
+.slide-bar-group {
+  background-color: #0c122c;
+  width: 85%;
+  height: 1rem;
+  margin-left: 2rem;
+  border-radius: 2rem;
+  position: relative;
+  top: 35px;
+}
+
+.slide-bar {
+  background: linear-gradient(to left, #ff4d97, #ffa399);
+  width: 75%;
+  height: 0.75rem;
+  border-radius: 2rem;
+  margin-left: 2.5px;
+  position: absolute;
+  top: 2.3px;
+}
+
+.dot {
+  background-color: white;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 20px;
+  position: absolute;
+  right: 1.5px;
+  top: 1px;
+}
+
+.limits-display {
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  position: relative;
+  top: 35px;
+}
+
+.limits {
+  padding-left: 14.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  color: inherit;
+  position: absolute;
+  /* below 4 lines of code to bring the attribution to bottom-center of the page */
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.attribution a {
+  color: inherit;
+  text-decoration: none;
+  text-align: justify;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    background-color: #0c122c;
+    background-image: url(../images/desktop-new-flat.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-blend-mode: normal;
+    background-size: 100% 107%;
+    background-attachment: fixed;
+    background-position: bottom;
+  }
+
+  .main-content {
+    width: 62rem;
+    height: 18rem;
+    background-color: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .upload-container {
+    margin-top: 0;
+    width: 22rem;
+    height: 12rem;
+    background-color: #1d2c67;
+    display: inline-block;
+    position: relative;
+    top: 2.5rem;
+    left: 2.1rem;
+    border-radius: 0.5rem;
+    border-top-right-radius: 5rem;
+  }
+
+  .cloud-storage-display {
+    float: right;
+    width: 55%;
+    height: 50%;
+    background-color: #1d2c67;
+    position: relative;
+    top: 5.5rem;
+    right: 2.1rem;
+    border-radius: 0.5rem;
+    margin-top: 0;
+  }
+
+  .white-box {
+    float: right;
+    background-color: white;
+    width: 8.75rem;
+    height: 3.43rem;
+    border-radius: 0.5rem;
+    position: relative;
+    bottom: 2rem;
+    right: 2.19rem;
+    font-weight: 700;
+  }
+
+  .callout {
+    float: right;
+    width: 0;
+    height: 0;
+    border-bottom: 1.56rem solid transparent;
+    border-right: 1.56rem solid white;
+    position: relative;
+    bottom: 0.625rem;
+  }
+
+  .limits {
+    padding-left: 25.8rem;
+  }
+
+  .white-box {
+    float: none;
+    position: absolute;
+    top: -120px;
+    background-color: white;
+    width: 8.75rem;
+    height: 3.43rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    display: block;
+  }
+
+  .slide-bar-group {
+    background-color: #0c122c;
+    width: 30rem;
+    height: 1rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    position: relative;
+    top: 2px;
+  }
+
+  .cloud-storage-msg {
+    padding-top: 0;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    position: relative;
+    top: 0;
+  }
+
+  .limits-display {
+    font-size: 0.65rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    position: relative;
+    top: 0;
+  }
+
+  .remaining-msg {
+    text-align: center;
+    color: #0c122c;
+    font-size: 2rem;
+    margin: 0.625rem;
+  }
+
+}
